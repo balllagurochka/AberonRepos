@@ -30,7 +30,7 @@ def sort_files(a): #Указать директорию
 сообщения типа «Файл data.txt был переименован в
 some_data.txt"""
 
-def count_and_size(a):
+def get_info(a):
     os.chdir(a)
     folders = os.listdir()
     for folder in folders:
